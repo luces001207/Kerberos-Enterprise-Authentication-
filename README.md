@@ -19,7 +19,7 @@ By the end of this project, I had a working architecture where a user authentica
 
 The environment consists of four Docker containers connected via a custom bridge network (`10.6.0.0/16`), simulating an isolated enterprise network:
 
-![Kerberos Architecture Diagram](./images/kerberos-architecture.png)
+![Kerberos Architecture Diagram](https://github.com/luces001207/Kerberos-Enterprise-Authentication-/blob/main/Kerberos%20Architecture%20Diagram.png)
 
 | Container | Role | IP Address |
 |---|---|---|
