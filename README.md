@@ -32,7 +32,7 @@ As shown in the diagram, all four containers sit on a **Docker virtual network**
 
 ### Why Docker Networking Matters
 
-Kerberos authentication depends on proper DNS and hostname resolution for service principals (e.g., `host/ssh-server.kerberosproject8429.com`). Docker's bridge network with static IP assignments and host entries allows us to replicate an enterprise network topology where each container behaves as an independent server on the same LAN. Without this, Kerberos ticket validation would fail because the KDC, clients, and services must all agree on hostnames.
+Kerberos authentication depends on proper DNS and hostname resolution for service principals (e.g., `host/ssh-server.kerberosprojectXXXX.com`). Docker's bridge network with static IP assignments and host entries allows us to replicate an enterprise network topology where each container behaves as an independent server on the same LAN. Without this, Kerberos ticket validation would fail because the KDC, clients, and services must all agree on hostnames.
 
 ---
 
